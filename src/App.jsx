@@ -3,14 +3,14 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="bg-white min-h-screen">
+    <div className="bg-white min-h-screen overflow-x-hidden">
 
       <Navbar />
 
       {/* Hero Section */}
       <section
         id="home"
-        className="grid md:grid-cols-2 items-center px-10 py-20 gap-14 bg-gradient-to-r from-blue-50 to-cyan-50"
+        className="grid md:grid-cols-2 items-center px-5 md:px-10 py-14 md:py-20 gap-10 md:gap-14 bg-gradient-to-r from-blue-50 to-cyan-50"
       >
 
         {/* Left Content */}
@@ -24,7 +24,7 @@ function App() {
             Advancing Healthcare For A Better Tomorrow
           </h1>
 
-          <p className="mt-8 text-lg text-gray-600 leading-8">
+          <p className="mt-6 md:mt-8 text-base md:text-lg text-gray-600 leading-7 md:leading-8">
             ShreeJi Pharmaceuticals is committed to delivering
             high-quality pharmaceutical and healthcare solutions
             with innovation, trust, and excellence.
@@ -50,14 +50,14 @@ function App() {
           <img
             src="https://img.freepik.com/free-photo/medical-banner-with-doctor-working-laptop_23-2149611193.jpg"
             alt="medical"
-            className="rounded-3xl shadow-2xl"
+            className="rounded-3xl shadow-2xl w-full max-w-xl"
           />
 
         </div>
       </section>
 
       {/* Stats Section */}
-      <section className="grid md:grid-cols-4 gap-8 px-10 py-20 bg-white">
+      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 px-5 md:px-10 py-14 md:py-20 bg-white">
 
         <div className="bg-blue-50 rounded-3xl p-10 text-center shadow-md">
           <h1 className="text-5xl font-bold text-blue-800">
@@ -71,7 +71,7 @@ function App() {
 
         <div className="bg-blue-50 rounded-3xl p-10 text-center shadow-md">
           <h1 className="text-5xl font-bold text-blue-800">
-            5+
+            3+
           </h1>
 
           <p className="mt-4 text-gray-600 font-medium">
@@ -104,7 +104,7 @@ function App() {
       {/* About Section */}
       <section
         id="about"
-        className="grid md:grid-cols-2 items-center px-10 py-24 gap-14 bg-gray-50"
+       className="grid md:grid-cols-2 items-center px-5 md:px-10 py-16 md:py-24 gap-10 md:gap-14 bg-gray-50"
       >
 
         {/* Image */}
@@ -125,7 +125,7 @@ function App() {
             About Us
           </p>
 
-          <h1 className="text-5xl font-bold text-blue-950 mt-5 leading-tight">
+          <h1 className="text-3xl md:text-5xl font-bold text-blue-950 mt-5 leading-tight">
             Delivering Trusted Pharmaceutical Excellence
           </h1>
 
@@ -151,7 +151,8 @@ function App() {
       {/* Products Section */}
       <section
         id="products"
-        className="px-10 py-24 bg-white"
+
+        className="px-5 md:px-10 py-16 md:py-24 bg-white"
       >
 
         <div className="text-center">
@@ -160,7 +161,7 @@ function App() {
             Our Products
           </p>
 
-          <h1 className="text-5xl font-bold text-blue-950 mt-5">
+          <h1 className="text-3xl md:text-5xl font-bold text-blue-950 mt-5">
             Pharmaceutical Categories
           </h1>
 
@@ -171,7 +172,7 @@ function App() {
         </div>
 
         {/* Product Cards */}
-        <div className="grid md:grid-cols-3 gap-10 mt-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 mt-12 md:mt-16">
 
           <div className="bg-blue-50 rounded-3xl p-10 shadow-md hover:shadow-2xl transition">
 
@@ -236,7 +237,8 @@ function App() {
       {/* Directors Section */}
       <section
         id="directors"
-        className="px-10 py-24 bg-gray-50"
+       
+        className="px-5 md:px-10 py-16 md:py-24 bg-gray-50"
       >
 
         <div className="text-center">
@@ -251,7 +253,7 @@ function App() {
 
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 mt-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mt-12 md:mt-16">
 
           {/* Director 1 */}
           <div className="bg-white rounded-3xl shadow-lg p-10 text-center">
@@ -308,7 +310,7 @@ function App() {
      {/* Contact Section */}
 <section
   id="contact"
-  className="px-10 py-24 bg-white"
+  className="px-5 md:px-10 py-16 md:py-24 bg-white"
 >
 
   <div className="text-center">
@@ -328,7 +330,7 @@ function App() {
   </div>
 
   {/* Contact Cards */}
-  <div className="grid md:grid-cols-3 gap-10 mt-20">
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 mt-12 md:mt-20">
 
     {/* Address */}
     <div className="bg-blue-50 rounded-3xl p-10 shadow-md text-center">
@@ -363,7 +365,7 @@ function App() {
       </p>
 
       <p className="text-gray-600 leading-7">
-        +91 80545 58202
+        +91 99151 79993
       </p>
 
     </div>
@@ -379,13 +381,13 @@ function App() {
         Email
       </h2>
 
-      <p className="mt-5 text-gray-600 leading-7">
+      <p className="mt-5 text-gray-600 leading-7 break-words">
         shreejipharmaceuticalsmkt@gmail.com
       </p>
 
-      <p className="text-gray-600 leading-7">
+      {/* <p className="text-gray-600 leading-7">
         prabhalsethi@gmail.com
-      </p>
+      </p> */}
 
     </div>
 
