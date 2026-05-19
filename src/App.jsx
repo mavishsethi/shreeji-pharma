@@ -16,11 +16,11 @@ function App() {
         {/* Left Content */}
         <div>
 
-          <p className="text-blue-700 font-semibold uppercase tracking-widest">
+          <p className="text-blue-700 text-2xl font-bold uppercase tracking-widest">
             Welcome To ShreeJi Pharmaceuticals
           </p>
 
-          <h1 className="text-6xl font-bold leading-tight text-blue-950 mt-5">
+          <h1 className="text-5xl font-bold leading-tight text-blue-950 mt-5">
             Advancing Healthcare For A Better Tomorrow
           </h1>
 
@@ -196,7 +196,8 @@ function App() {
           <div className="bg-blue-50 rounded-3xl p-10 shadow-md hover:shadow-2xl transition">
 
             <img
-              src="https://cdn-icons-png.flaticon.com/512/4320/4320337.png"
+              // src="https://cdn-icons-png.flaticon.com/512/4320/4320337.png"
+                 src="https://cdn-icons-png.flaticon.com/512/822/822143.png"
               alt="capsules"
               className="w-20"
             />
@@ -215,7 +216,9 @@ function App() {
           <div className="bg-blue-50 rounded-3xl p-10 shadow-md hover:shadow-2xl transition">
 
             <img
-              src="https://cdn-icons-png.flaticon.com/512/2785/2785819.png"
+              // src="https://cdn-icons-png.flaticon.com/512/2785/2785819.png"
+              // src="https://cdn-icons-png.flaticon.com/512/822/822143.png"
+              src="https://cdn-icons-png.flaticon.com/512/4320/4320337.png"
               alt="syrup"
               className="w-20"
             />
@@ -361,7 +364,7 @@ function App() {
       </h2>
 
       <p className="mt-5 text-gray-600 leading-7">
-        +91 80545 58202
+       +91 79737 37001
       </p>
 
       <p className="text-gray-600 leading-7">

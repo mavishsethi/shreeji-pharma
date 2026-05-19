@@ -1,3 +1,4 @@
+import logo1 from "../assets/logo.png";
 function Footer() {
   return (
     <footer className="bg-blue-950 text-white mt-20">
@@ -10,10 +11,15 @@ function Footer() {
 
           <div className="flex items-center gap-3">
 
-            <img
+            {/* <img
               src="https://cdn-icons-png.flaticon.com/512/4320/4320371.png"
               alt="logo"
               className="w-10 h-10 md:w-12 md:h-12"
+            /> */}
+            <img
+              src={logo1}
+              alt="logo"
+              className="h-14 md:h-20 w-auto object-contain"
             />
 
             <div>
@@ -82,7 +88,9 @@ function Footer() {
             <p>
               📞 +91 79737 37001
             </p>
-
+<p>
+              📞  +91 99151 79993
+            </p>
             <p className="break-words">
               ✉️ shreejipharmaceuticalsmkt@gmail.com
             </p>

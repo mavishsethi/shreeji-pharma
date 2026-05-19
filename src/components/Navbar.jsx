@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import logo1 from "../assets/logo.png";
 
 function Navbar() {
 
@@ -25,11 +26,12 @@ function Navbar() {
         {/* Logo */}
         <div className="flex items-center gap-3">
 
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/4320/4320371.png"
-            alt="logo"
-            className="w-10 h-10 md:w-12 md:h-12"
-          />
+         
+<img
+  src={logo1}
+  alt="logo"
+  className="h-14 md:h-20 w-auto object-contain"
+/>
 
           <div>
             <h1 className="text-lg md:text-2xl font-bold text-blue-900">
