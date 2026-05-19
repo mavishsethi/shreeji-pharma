@@ -1,4 +1,4 @@
-import logo1 from "../assets/logo.png";
+// import logo1 from "../assets/logo.png";
 function Footer() {
   return (
     <footer className="bg-blue-950 text-white mt-20">
@@ -16,11 +16,11 @@ function Footer() {
               alt="logo"
               className="w-10 h-10 md:w-12 md:h-12"
             /> */}
-            <img
+            {/* <img
               src={logo1}
               alt="logo"
               className="h-14 md:h-20 w-auto object-contain"
-            />
+            /> */}
 
             <div>
               <h1 className="text-xl md:text-2xl font-bold">
